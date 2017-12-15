@@ -14,6 +14,9 @@ app.get('/',function(req,res) {
     fs.createReadStream(path.join(__dirname + "/index.html")).pipe(res);  
 })
 
+// Set port
+var port = 3004;
+
 app.post('/upload', function(req, res) {
     
     if(req.files.sampleFile === undefined) {
@@ -84,6 +87,6 @@ app.get('/uploads/:name', function(req, res){
     }
 })
 
-app.listen(3004, function() {
-    console.log('up and running');
+app.listen(port, function() {
+    console.log('Listening on: '+port);
 })
