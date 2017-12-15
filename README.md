@@ -8,7 +8,7 @@ Please email meet@daveinside.com if you find any bugs
 
 ## URI & Versioning 
 
-I hope to improve API over time by adding more file versions, securing the API endpoints, Adding HTTPS, Limiting upload document size & maintaining the code overlooking the ease of requirements & usage. 
+I hope to improve API over time by adding more file versions, securing the API endpoints, Adding HTTPS, Limiting upload document size, downloading docs from other servers & maintaining the code overlooking the ease of requirements & usage. 
 
 ## Usage 
 
