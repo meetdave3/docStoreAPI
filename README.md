@@ -31,8 +31,8 @@ Base URL: `http://localhost:3004`
 URL | Method | Description
 ------|-----|------------
 / | GET | Serves a HTML File to Upload Image using form. (To test out the API)
-/upload | POST | Requires a document to be uploaded
-/uploads/:filename | GET | Provide the required filename in the URL access the document
+/upload | POST | Requires a document to be uploaded (Supported: PDF, PNG, SVG, JPEG & JPG)
+/uploads/:filename | GET | Provide the required filename in the URL access the document. Example `http://localhost:3004/uploads/youtube.svg` will server the SVG file
 
 ## Further Notes 
 
