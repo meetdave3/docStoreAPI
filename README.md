@@ -14,11 +14,11 @@ I hope to improve API over time by adding more file versions, securing the API e
 
 Make sure to have Node.js running on the system.
 
-Run `npm install`.
+Run `npm install`
 
-Once the process is complete.
+Once the process is complete,
 
-Run `node server`.
+Run `node server`
 
 You will have the API Running. 
 
@@ -29,7 +29,7 @@ To test, navigate to `http://localhost:3004/` on your browser.
 Base URL: `http://localhost:3004`
 
 URL | Method | Description
-------|------------
+------|-----|------------
 / | GET | Serves a HTML File to Upload Image using form. (To test out the API)
 /upload | POST | Requires a document to be uploaded
 /uploads/:filename | GET | Provide the required filename in the URL access the document
