@@ -12,12 +12,17 @@ I hope to improve API over time by adding more file versions, securing the API e
 
 ## Usage 
 
-Make sure to have Node.js running on the system
-Run `npm install` 
-Once the process is complete
-Run `node server`
+Make sure to have Node.js running on the system.
+
+Run `npm install`.
+
+Once the process is complete.
+
+Run `node server`.
+
 You will have the API Running. 
-To test, navigate to `http://localhost:3004/` on your browser
+
+To test, navigate to `http://localhost:3004/` on your browser.
 
 ## Current API Enpoints
 
