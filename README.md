@@ -4,11 +4,11 @@
 
 This repo consists of a standalone Node.js RestfulAPI to store your documents on your own remote server. The APIs can serve documents such as PDF, PNG, SVG, JPG & JPEG to your application. 
 
-Please email meet@daveinside.com if you find any bugs
+Please email meet@daveinside.com for feature requests or if you find any bugs or just to say hi.
 
 ## URI & Versioning 
 
-I hope to improve API over time by adding more file versions, securing the API endpoints, Adding HTTPS, Limiting upload document size, downloading docs from other servers & maintaining the code overlooking the ease of requirements & usage. 
+I hope to improve API over time by adding more file versions, securing the API endpoints, Adding HTTPS, Limiting upload document size, downloading docs from other servers, scalability & maintaining the code overlooking the ease of requirements & usage. 
 
 ## Usage 
 
