@@ -6,6 +6,7 @@ var path = require('path');
 var app = express();
 app.use(fileUpload());
 var bodyParser = require('body-parser');
+var count = 1;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false}));
@@ -33,9 +34,21 @@ app.post('/upload', function(req, res) {
             var fileName = sampleFile.name;
             var filePath = 'uploads/images/';
 
+            
             fs.exists(filePath+fileName, function(exists){
                 if(exists === true){
-                    res.send('filenameexists');
+                
+                    var counter = count++;
+                    var sliceFile = fileName.slice(0, -4);
+
+                    sampleFile.mv("uploads/images/" + sliceFile+counter+extensionName,
+                      function(err) {
+                        if (err)
+                          return res.status(500).send(err);
+                        url ="http://localhost:3004/uploads/" +sampleFile.name;
+                        
+                        res.send(url);
+                      });
                 } else if( exists === false) {
                     sampleFile.mv('uploads/images/'+fileName, function(err) {
                         if (err)
