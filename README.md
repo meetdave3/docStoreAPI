@@ -39,7 +39,7 @@ URL | Method | Description
 The responses are mostly self explanatory. 
 
 URL | Method | Response | Description
-------|-----|--------|------------
+------|-----|--------|------------------------
 /upload | POST | `empty` | No file was uploaded 
 /upload | POST | `filenameexists` | A file of similar name already exists on server.
 /upload | POST | `http://urlname.com/uploads/:filename.extension` | Upload is successful, The response is the URL at which the uploaded document will be served 
